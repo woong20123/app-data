@@ -23,7 +23,7 @@ https://raw.githubusercontent.com/woong20123/app-data/main/<앱>/<버전>/<파�
 | 파일 | 내용 | 만드는 곳 |
 |---|---|---|
 | `forestsearch/v1/forests.json` | 지역(숲나들e `srchSido`) → 휴양림 이름(`srchInstt` 글자 그대로) | `Study/AIMake/ForestSearch/scripts/update_forests.py` |
-| `forestsearch/v1/prices.json` | 객실 가격 캐시 (예정, JUN-8) | `scripts/update_prices.py` (예정) |
+| `forestsearch/v1/prices.json` | 숙소 객실 가격(비수기/성수기 × 평일/주말, JUN-8) | `Study/AIMake/ForestSearch/scripts/update_prices.py` |
 
 - `forests.json`은 앱에 넣는 `app/src/main/assets/forests.json`과 같은 내용이다.
   `updated`(목록이 바뀐 날) · `checked`(사이트에서 확인한 날)로 앱이 더 새것을 고른다.

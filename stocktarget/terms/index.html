@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>매수타점 서비스 이용약관 · StockTarget Terms of Service</title>
+<style>
+  :root { --bg:#fff; --fg:#1f2328; --muted:#656d76; --line:#d0d7de; --panel:#f6f8fa; --accent:#0969da; color-scheme: light dark; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0d1117; --fg:#e6edf3; --muted:#8d96a0; --line:#30363d; --panel:#161b22; --accent:#4493f8; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.7 "Malgun Gothic","Segoe UI",system-ui,sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 24px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin: 32px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--line); }
+  .meta { color: var(--muted); font-size: 13px; margin-bottom: 20px; }
+  .box { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; margin: 12px 0; }
+  .table-wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  th, td { border: 1px solid var(--line); padding: 6px 8px; text-align: left; vertical-align: top; }
+  th { background: var(--panel); }
+  a { color: var(--accent); }
+  code { font-family: Consolas, monospace; font-size: 13px; background: var(--panel); padding: 1px 4px; border-radius: 4px; }
+  hr { border: 0; border-top: 2px solid var(--line); margin: 48px 0; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>매수타점 서비스 이용약관</h1>
+<div class="meta">시행일: 2026년 11월 7일 · 개발자: Woong's Lab · 패키지: com.woongslab.stocktarget · <a href="#en">English</a></div>
+
+<div class="box">
+  <b>핵심 요약</b>: "매수타점" 앱은 사용자가 입력한 목표가를 기준으로 분할 매수 타점을 계산해 주는 단순 정보 정리 도구이며, <b>투자 자문이나 투자 권유가 아닙니다</b>. 주식 거래 및 투자에 대한 모든 판단과 최종 책임은 이용자 본인에게 있습니다.
+</div>
+
+<h2>1. 목적</h2>
+<p>본 약관은 Woong's Lab(이하 "개발자")이 제공하는 모바일 애플리케이션 "매수타점(StockTarget)"(이하 "앱" 또는 "서비스")의 이용 조건 및 절차, 이용자와 개발자 간의 권리, 의무 및 책임 사항을 규정함을 목적으로 합니다.</p>
+
+<h2>2. 서비스의 성격 및 투자 면책 조항 (중요)</h2>
+<ol>
+  <li><b>비금융·비자문 도구</b>: 앱은 증권사 또는 금융기관과 제휴되지 않은 비공식 도구이며, 주식 매수/매도 주문을 직접 집행하거나 금융 계좌를 직접 관리하지 않습니다.</li>
+  <li><b>투자 권유 부인</b>: 앱에서 제공하는 매수 단계, 괴리율, 분할 매수 계산 결과, 백테스트 결과 등은 단순 수치 계산에 근거한 참고 자료일 뿐이며, 특정 종목에 대한 투자 권유나 자문, 매수/매도 추천이 아닙니다.</li>
+  <li><b>투자 책임의 귀속</b>: 앱의 계산 결과 및 외부 시세 정보를 바탕으로 행해진 모든 투자 판단과 그로 인해 발생하는 손익은 전적으로 이용자 본인의 책임이며, 개발자는 이에 대해 어떠한 법적 책임도 부담하지 않습니다.</li>
+  <li><b>외부 데이터 정확성 한계</b>: 주가, 환율, 배당 등 외부 시세 데이터는 Yahoo Finance 등의 공개 API를 통해 기기가 직접 조회하며, 데이터의 지연, 누락, 오류가 발생할 수 있습니다. 개발자는 데이터의 완전성과 무결성을 보증하지 않습니다.</li>
+</ol>
+
+<h2>3. 이용자의 권리 및 의무</h2>
+<ol>
+  <li>이용자는 관련 법령과 본 약관을 준수하여야 하며, 앱의 역설계, 변조, 비정상적 트래픽 발생 등 서비스 운영을 방해하는 행위를 하여서는 안 됩니다.</li>
+  <li>앱에서 제공하는 계산 로직, UI 디자인, 상표 등 서비스와 관련된 모든 지식재산권은 개발자에게 귀속됩니다.</li>
+</ol>
+
+<h2>4. 데이터의 저장 및 관리</h2>
+<p>앱은 별도의 회원 가입이나 개발자 중앙 서버를 두지 않으며, 이용자가 입력한 모든 종목 정보, 목표가, 매수 금액, 설정값은 이용자의 기기 내부 로컬 저장소(SQLite)에만 저장됩니다. 기기 분실, 앱 삭제, 데이터 초기화로 인한 데이터 유실은 이용자 본인이 백업 기능(JSON 내보내기 등)을 통해 관리하여야 합니다.</p>
+
+<h2>5. 광고 게재 (Google AdMob)</h2>
+<p>서비스는 무료로 제공되며, 서비스 운영 및 유지 관리를 위해 Google AdMob을 통한 배너 광고가 게재됩니다. 광고 노출 및 관련 데이터 처리는 Google의 개인정보처리방침을 따릅니다.</p>
+
+<h2>6. 서비스의 변경 및 중단</h2>
+<p>개발자는 앱의 개선, 운영상 필요, 외부 API 서비스 변경 등에 따라 앱의 기능 일부 또는 전부를 수정하거나 제공을 중단할 수 있습니다.</p>
+
+<h2>7. 준거법</h2>
+<p>본 약관의 해석 및 이용자와 개발자 간의 분쟁에 대해서는 대한민국 법률을 준거법으로 합니다.</p>
+
+<h2>8. 문의처</h2>
+<p>서비스 이용과 관련한 문의는 아래 이메일로 연락해 주시기 바랍니다.<br>
+이메일: <a href="mailto:woong20123@gmail.com">woong20123@gmail.com</a></p>
+
+<hr id="en">
+
+<h1>StockTarget Terms of Service</h1>
+<div class="meta">Effective: November 7, 2026 · Developer: Woong's Lab · Package: com.woongslab.stocktarget</div>
+
+<div class="box">
+  <b>Summary</b>: StockTarget is an informational tool designed to calculate installment buying price targets based on user-entered goals. <b>It is NOT investment advice or financial consultation</b>. All investment decisions and results are solely the responsibility of the user.
+</div>
+
+<h2>1. Purpose</h2>
+<p>These Terms of Service ("Terms") govern your use of the mobile application "StockTarget" ("the App" or "the Service") provided by Woong's Lab ("the developer").</p>
+
+<h2>2. Nature of Service & Investment Disclaimer</h2>
+<ol>
+  <li><b>Informational Tool Only</b>: The App is an independent utility and is not affiliated with any brokerage firm or financial institution. It does not execute trades or manage financial accounts.</li>
+  <li><b>No Investment Advice</b>: The buy stages, divergence rates, backtesting calculations, and price targets provided by the App are purely mechanical computations for reference. Nothing in the App constitutes investment advice, financial planning, or a recommendation to buy or sell securities.</li>
+  <li><b>User's Responsibility</b>: Any investment decisions made based on information or calculations from the App are entirely at your own risk. The developer assumes no liability for financial gains or losses incurred.</li>
+  <li><b>Market Data Disclaimers</b>: Stock prices, exchange rates, and dividend data are fetched directly by your device via public APIs (e.g., Yahoo Finance). The developer does not guarantee the timeliness, accuracy, or completeness of such data.</li>
+</ol>
+
+<h2>3. User Responsibilities & Intellectual Property</h2>
+<ol>
+  <li>Users agree to use the App in compliance with applicable laws and shall not attempt to reverse engineer, tamper with, or disrupt the operation of the App.</li>
+  <li>All intellectual property rights associated with the App, its design, and its code belong to Woong's Lab.</li>
+</ol>
+
+<h2>4. Data Storage and Privacy</h2>
+<p>The App operates without a central developer server or account registration. All portfolios, targets, and settings are stored locally on your device (SQLite). Users are responsible for safeguarding their data using the provided backup tools.</p>
+
+<h2>5. Advertising (Google AdMob)</h2>
+<p>The App is provided free of charge and displays banner advertisements powered by Google AdMob. The handling of ad-related data is subject to Google's Privacy Policy.</p>
+
+<h2>6. Changes to Service</h2>
+<p>The developer reserves the right to modify or discontinue parts or all of the App at any time for maintenance, enhancement, or due to third-party API availability.</p>
+
+<h2>7. Contact</h2>
+<p>For inquiries regarding these Terms or the App, please contact:<br>
+Email: <a href="mailto:woong20123@gmail.com">woong20123@gmail.com</a></p>
+
+</main>
+</body>
+</html>
